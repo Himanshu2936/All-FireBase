@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "29142595126",
+    "firebase_url": "https://allfirebase-faffb.firebaseio.com",
+    "project_id": "allfirebase-faffb",
+    "storage_bucket": "allfirebase-faffb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:29142595126:android:6d3a610e8b1a2e13",
+        "android_client_info": {
+          "package_name": "com.hagames.allfirebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "29142595126-me9pkd48uln4um7etnje7o13ook2akcq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.hagames.allfirebase",
+            "certificate_hash": "048adeab6337b1aac778ee7f84e46efefa6572c4"
+          }
+        },
+        {
+          "client_id": "29142595126-717didfgrc8sc8pdm4t5kokoirlm96q5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBeecFEhEwv53gxoYnYRxOXHL7_W8UfHKE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "29142595126-717didfgrc8sc8pdm4t5kokoirlm96q5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

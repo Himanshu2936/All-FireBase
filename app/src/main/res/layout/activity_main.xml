@@ -46,4 +46,29 @@
         android:layout_margin="10dp"
         android:background="@drawable/yellow"
         android:id="@+id/logout"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/upload_image"
+            android:text="Click to select Image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/red"
+            android:layout_margin="10dp"
+            android:gravity="center_horizontal"
+            android:layout_gravity="center_horizontal"
+            android:padding="20dp"/>
+        <Button
+            android:id="@+id/some"
+            android:text="Retrive Database"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:layout_margin="10dp"
+            android:background="@drawable/green"
+            android:layout_gravity="center_horizontal"
+            android:padding="20dp"/>
+    </LinearLayout>
 </LinearLayout>

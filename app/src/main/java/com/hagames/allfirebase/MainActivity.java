@@ -15,7 +15,7 @@ import com.google.firebase.database.FirebaseDatabase;
 
 public class MainActivity extends AppCompatActivity {
 
-    Button database,database_retrieve,Logout;
+    Button database,database_retrieve,Logout,upload;
     FirebaseAuth mAuth;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -23,6 +23,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         database=(Button)findViewById(R.id.database);
         Logout =(Button)findViewById(R.id.logout);
+        upload=(Button)findViewById(R.id.upload_image);
         database_retrieve=(Button)findViewById(R.id.database_retrieve);
         database.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -35,6 +36,13 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent=new Intent(MainActivity.this,Database_Retrieve.class);
+                startActivity(intent);
+            }
+        });
+        upload.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent=new Intent(MainActivity.this,UploadImage.class);
                 startActivity(intent);
             }
         });

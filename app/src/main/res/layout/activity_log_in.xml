@@ -8,23 +8,26 @@
     android:paddingBottom="@dimen/activity_vertical_margin"
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin">
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@color/color">
 
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:inputType="textPersonName"
         android:ems="10"
+        android:background="@drawable/input_background"
         android:id="@+id/email"
         android:hint="Email"
         android:padding="20dp"
-        android:layout_marginTop="30dp" />
+        android:layout_marginTop="60dp" />
 
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:inputType="textPersonName"
         android:padding="20dp"
+        android:background="@drawable/input_background"
         android:layout_marginTop="30dp"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
@@ -37,6 +40,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/value"
         android:padding="20dp"
+        android:background="@drawable/buttun_background"
         android:layout_marginTop="30dp"
         android:layout_centerHorizontal="true"
         android:id="@+id/sign_in" />

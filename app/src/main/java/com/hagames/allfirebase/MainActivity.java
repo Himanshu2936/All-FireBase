@@ -50,7 +50,7 @@ public class MainActivity extends AppCompatActivity {
         if(mAuth.getCurrentUser()==null){
             finish();
             startActivity(new Intent(this,LogIn.class));
-            Toast.makeText(this,"Not Registered",Toast.LENGTH_LONG).show();
+            Toast.makeText(this,"Not Registered/logged in",Toast.LENGTH_LONG).show();
         }
     }
 }

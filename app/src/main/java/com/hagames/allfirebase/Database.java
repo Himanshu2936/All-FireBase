@@ -29,6 +29,8 @@ public class Database extends AppCompatActivity {
                 String Key=key.getText().toString();
                 Firebase child=mRootRef.child(Key);
                 child.setValue(Value);
+                value.setText("");
+                key.setText("");
             }
         });
     }

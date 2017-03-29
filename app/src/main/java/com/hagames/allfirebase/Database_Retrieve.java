@@ -30,6 +30,7 @@ public class Database_Retrieve extends AppCompatActivity {
                 TreeMap<String,String> map = dataSnapshot.getValue(TreeMap.class);
                 String s;
                 s=map.get(map.firstKey());
+                t.setText(s);
             }
 
             @Override

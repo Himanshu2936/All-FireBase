@@ -1,7 +1,9 @@
 package com.hagames.allfirebase;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 
@@ -11,15 +13,18 @@ import com.google.firebase.database.FirebaseDatabase;
 
 public class MainActivity extends AppCompatActivity {
 
-    Button sendtofb;
-    EditText value;
-    Firebase mRootRef;
+    Button database;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        sendtofb=(Button)findViewById(R.id.sendtofb);
-        value=(EditText) findViewById(R.id.value);
-        mRootRef=new Firebase("https://allfirebase-faffb.firebaseio.com/");
+        database=(Button)findViewById(R.id.database);
+        database.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent=new Intent(MainActivity.this,Database.class);
+                startActivity(intent);
+            }
+        });
     }
 }

@@ -19,7 +19,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".Database" />
-        <activity android:name=".Database_Retrieve"></activity>
+        <activity android:name=".Database_Retrieve" />
+        <activity android:name=".LogIn"></activity>
     </application>
 
 </manifest>
